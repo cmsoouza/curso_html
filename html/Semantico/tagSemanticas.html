@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Separação de Conteudo</title>
+    <style>
+        main {
+            margin: 0;
+            padding: 5px;
+            background-color: #d3d3d3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 3px;
+            background-color: darkcyan;
+            color: #ffffff;
+        }
+
+        aside {
+            width: 30%;
+            padding-left: 15px;
+            margin-left: 15px;
+            background-color: #a0b81c;
+            float: right;
+            font-style: italic;
+        }
+
+        #logo {
+            position: relative;
+            left: 80%;
+        }
+
+        .one {
+            width: 30%;
+            padding-top: 15px;
+            float: left;
+            margin: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <h1>Elementos Separam Conteúdo</h1>
+            <img id="logo" src="/img/logo-2582748_1280.png" alt="HTML5" width="100">
+        </header>
+
+        <section class="one">
+            <h2>HiperTextmarkup</h2>
+            <p>
+                In adipisicing consequat nulla culpa nisi sint excepteur. Aliqua Lorem nisi reprehenderit ipsum commodo
+                nulla duis sit cillum laborum id occaecat fugiat commodo. Aute consectetur labore qui consequat. Do ad
+                occaecat velit culpa nisi. Quis veniam quis exercitation pariatur id minim in cupidatat consectetur
+                minim anim eiusmod. Aute magna ut amet consequat culpa deserunt consectetur. Excepteur adipisicing elit
+                ullamco sint officia nostrud adipisicing tempor pariatur qui magna tempor labore sit.
+            </p>
+        </section>
+
+        <article>
+            <h4>Um artigo realmente impressionante</h4>
+            <p>Lotes de texto incrível.</p>
+        </article>
+
+        <aside>
+            <p>
+                The Epcot center is a theme park at Walt Disney World Resort featuring exciting attractions,
+                international
+                pavilions, award-winning fireworks and seasonal special events.
+            </p>
+        </aside>
+
+        <address>
+            Voce pode contatar o autor em <a href="http://www.somedomain.com/contact">www.somedomain.com</a>.<br>
+            Se encontrar qualquer bug, por favor
+            <a href="mailto:webmaster@somedomain.com">contate o administrador do site</a>.<br>
+            Você tambem pode querer nos visitar:<br>
+            Mozilla Foundation<br>
+            1981 Landings Drive<br>
+            Building K<br>
+            Mountain View, CA 94043-0801<br>
+            USA
+        </address>
+
+        <footer>
+            <p>Author: Hege Refsnes</p>
+            <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+        </footer>
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+/* Nao possui herança */
+body {
+  background: #f5f2f2;
+}
+
+.pagina {
+  color: red;
+  border: 5px solid blue;
+  background: #9ad1e7;
+}
+
+/* Regra de Especificidade */
+p {
+  color: blue !important; /* Seletores iguais, exceçao do import */
+}
+
+p {
+  color: red;
+}
+
+h2 {
+  color: #e66deb; /* Seletor (mais especifico) com precedencia sobre regras mais gerais "3" */
+}
+
+h2.verde {
+  color: #008000; /* Seletor iguai porem com marcação da *class (propriedade especifica "2") */
+}
+
+h2#amarelo {
+  color: #ffd700; /* Seletor igual porem com marcação da #id (propriedade especifica "1") */
+}
+
+section {
+  border: 1px solid #ff0000;
+}
