@@ -38,6 +38,7 @@
 ### Recursos (Links)
 
 - [(Listas)](https://www.w3schools.com/html/html_lists.asp)
+- [(Tabelas)](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/table)
 ---
 
 <p>Cristian Souza <br>
