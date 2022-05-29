@@ -42,53 +42,58 @@
         thead {
             background: #ddd;
         }
+
+        .responsive-table {
+            max-width: 100%;
+            overflow-x: auto;
+        }
     </style>
 </head>
 
 <body>
-    <h2>Exemplo de Tabela</h2>
+    <h2>Tabela</h2>
 
-    <table>
-        <caption>Uma descrição para tabela</caption>
-        <thead>
-            <!-- cabeçalho da tabela -->
-            <tr>
-                <th>Titulo 1</th>
-                <th>Titulo 2</th>
-                <th>Titulo 3</th>
-            </tr>
-        </thead>
+    <div class="reponsive-table">
+        <table>
+            <caption>Uma descrição para tabela</caption>
+            <thead>
+                <!-- cabeçalho da tabela -->
+                <tr>
+                    <th>Titulo 1</th>
+                    <th>Titulo 2</th>
+                    <th>Titulo 3</th>
+                </tr>
+            </thead>
 
-        <tbody>
-            <!-- corpo da tabela -->
-            <tr>
-                <td>Corpo 1</td>
-                <td>Corpo 2</td>
-                <td>Corpo 3</td>
-            </tr>
-            <tr>
-                <td>Corpo 4</td>
-                <td>Corpo 5</td>
-                <td>Corpo 6</td>
-            </tr>
-            <tr>
-                <td>Corpo 7</td>
-                <td>Corpo 8</td>
-                <td>Corpo 9</td>
-            </tr>
-        </tbody>
+            <tbody>
+                <!-- corpo da tabela -->
+                <tr>
+                    <td>Celula 1</td>
+                    <td>Celula 2</td>
+                    <td>Celula 3</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Estendendo colunas</td><!-- numero de colunas a serem estendidas -->
+                    <td>Corpo 5</td>
+                </tr>
+                <tr>
+                    <td>Celula 7</td>
+                    <td>Celula 8</td>
+                    <td>Celula 9</td>
+                </tr>
+            </tbody>
 
-        <tfoot>
-            <!-- rodapé da tabela -->
-            <tr>
-                <td>Rodapé 1</td>
-                <td>Rodapé 2</td>
-                <td>Rodapé 3</td>
-            </tr>
-        </tfoot>
+            <tfoot>
+                <!-- rodapé da tabela -->
+                <tr>
+                    <td colspan="2" rowspan="2">Preço</td>
+                    <td rowspan="2">Total: r$2.200,00</td>
+                </tr>
+            </tfoot>
 
-    </table>
-
+        </table>
+    </div>
+    
 </body>
 
 </html>
