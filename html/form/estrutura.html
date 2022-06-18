@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutra Form</title>
+</head>
+
+<body>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+
+        <fieldset>
+            <!-- input de botoes -->
+            <legend>Entrada de Botões</legend>
+            <p>
+                <input type="radio" name="suco" id="suco1" value="small">
+                <label for="suco">Pequeno</label>
+            </p>
+            <p>
+                <input type="radio" name="suco" id="suco2" value="mediun">
+                <label for="suco">Medio</label>
+            </p>
+            <p>
+                <input type="radio" name="suco" id="suco3" value="large">
+                <label for="suco">Grande</label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <!-- input de texto -->
+            <legend>Entrada de valores texto</legend>
+            <p>O meu formulário</p>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" value="Luiz">
+
+            <!-- Algumas configurações de botoes
+                >>> type="submit"
+                >>> type="reset"
+            -->
+            <button type="reset">Reset</button>
+            <button type="submit">Enviar</button>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>

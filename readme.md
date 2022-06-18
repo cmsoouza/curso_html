@@ -16,13 +16,6 @@
     "Hipertexto" refere-se aos links que conectam páginas da Web entre si, seja dentro de um único site ou entre sites. Links são um aspecto fundamental da web. Ao carregar conteúdo na Internet e vinculá-lo a páginas criadas por outras pessoas, você se torna um participante ativo na world wide web.
 </p>
 
-### 🔗Principais links
-
-- [(Estrutura)](https://www.w3schools.com/html/html_basic.asp)
-- [(Elementos)](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element)
-- [(Formularios)](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element#formul%C3%A1rios)
-
-
 ### 💡Guia do HTML
 
 <p>
@@ -35,10 +28,19 @@
     <li>Formulários</li>
 </ol>
 
+### 🔗Principais links
+
+- [(Estrutura)](https://www.w3schools.com/html/html_basic.asp)
+- [(Elementos)](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element)
+- [(Formularios)](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element#formul%C3%A1rios)
+
+
 ### Recursos (Links)
 
 - [(Listas)](https://www.w3schools.com/html/html_lists.asp)
 - [(Tabelas)](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/table)
+- [Form (botton)](https://www.w3schools.com/tags/tag_button.asp)
+
 ---
 
 <p>Cristian Souza <br>
